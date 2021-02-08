@@ -2,34 +2,29 @@
 
 body {
   color: #333333;
-  background-color: #fff;
   font-family: "Lexend Mega", sans-serif;
-  max-width: 600px;
   margin: auto;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 .main-content {
-  flex-grow: 1;
+  /* flex-grow: 1; */
   text-align: center;
   margin: auto;
 }
-.icon {
-  width: 35px;
-  color: #888888;
-}
 .box {
   margin-top: 50px;
+  margin: auto;
   background-color: rgb(197, 223, 214);
   border: 7px solid #333333;
   width: 350px;
-  height: 600px;
+  height: 550px;
   border-radius: 30px;
-  padding: 25px;
+  padding: 15px;
 }
 footer {
-  color: #333333;
+  color: #888888;
   border-top: 1px solid #eeeeee;
   margin-top: 16px;
   padding: 16px 0;
@@ -58,25 +53,20 @@ button {
   padding: 12px;
   margin-top: 14px;
   outline: none;
-  margin-bottom: 10px;
 }
 button {
   cursor: pointer;
   background: #888888;
   color: white;
 }
-#message-1 {
-  margin: auto;
-  font-size: 25px;
-}
+
 #message-2 {
   margin: auto;
-  width: 100%;
-  padding: 5px;
-  margin-top: 12px;
-  font-size: 40px;
+  width: 75%;
+  padding: 15px;
+  margin-top: 15px;
+  font-size: 0px;
 }
-@media only screen and (max-width: 600px) {
-  .box {
-  }
+#message-1 {
+  font-size: 20px;
 }
