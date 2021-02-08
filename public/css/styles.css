@@ -14,6 +14,7 @@ body {
   flex-grow: 1;
   text-align: center;
   margin: auto;
+  padding: 15px;
 }
 .icon {
   width: 35px;
@@ -23,7 +24,7 @@ body {
   margin-top: 50px;
   background-color: rgb(197, 223, 214);
   border: 7px solid #333333;
-  width: 400px;
+  width: 370px;
   height: 600px;
   border-radius: 30px;
   padding: 25px;
