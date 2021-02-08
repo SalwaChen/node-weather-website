@@ -9,17 +9,15 @@ body {
   min-height: 100vh;
 }
 .main-content {
-  /* flex-grow: 1; */
   text-align: center;
-  margin: auto;
 }
 .box {
-  margin-top: 50px;
+  flex-grow: 1;
   margin: auto;
   background-color: rgb(197, 223, 214);
   border: 7px solid #333333;
-  width: 350px;
-  height: 550px;
+  width: 360px;
+  height: 680px;
   border-radius: 30px;
   padding: 15px;
 }
